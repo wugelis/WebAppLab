@@ -8,6 +8,7 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
+        ViewData["Message"] = "歡迎 to the Home Page!";
         return View();
     }
 
